@@ -24,6 +24,13 @@ WordPressプラグインの開発に慣れていなくても、経験豊かな�
 1. プラグインの開発に慣れていない場合は、はじめに[概要](./intro/)を読んでから、[基本](./the-basics/)に進んでください。
 2. 第3章で解説するのは、[プラグインのセキュリティ](./security/)です。
 3. 「[フック](./hooks/)」は作成するプラグインとWordPressを繋ぐものです。第4章で解説します。
-4. プラグインで利用できるWordPressの組み込み関数（[管理メニュー](./administration-menus/)、[ショートコード](./shortcodes/)、[設定](./settings/)、[メタデータ](.//metadata/)、[カスタム投稿タイプ](./post-types/)）
+4. プラグインで利用できる他のWordPressの組み込み機能については第5〜11章にあります。（[管理メニュー](./administration-menus/)、[ショートコード](./shortcodes/)、[設定](./settings/)、[メタデータ](.//metadata/)、[カスタム投稿タイプ](./post-types/)、[タクソノミー](./taxonomy/)、[ユーザー](./users/)）
+5. [HTTP API](.//http-api/)でのデータ取得については第12章を参照してください。
+6. プラグインで[JavaScriptやjQuery、Ajax](./javascript/)を利用する際は、必要な情報は13章にあります。
+7. [Cron](./cron/)を使った時間によるのWordPressタスクについては、第14章を参照してください。
+8. 第15〜17章では、[プラグインの国際化](./internationalization/)、[WordPress.orgでリリース](./wordpress-org/)するための準備、および有用な[開発ツール](./developer-tools/)について紹介します。
+
 
 The WordPress Plugin Developer Handbook is created by the WordPress community, for the WordPress community. We are always looking for more contributors; if you’re interested, stop by the docs team blog to find out more about getting involved.
+
+「The Plugin Developer Handbook」は、WordPressコミュニティのために、WordPressコミュニティによって作成されています。 私たちは常により多くの貢献者を探しています。 興味がある場合は、[ドキュメントチームのブログ](https://make.wordpress.org/docs/)に立ち寄って貢献の仕方を知ることができます。
