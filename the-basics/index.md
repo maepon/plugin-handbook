@@ -63,11 +63,21 @@ Plugin Name: YOUR PLUGIN NAME
 
 <h2 class="toc-heading" id="hooks-actions-and-filters" tabindex="-1">Hooks: Actions and Filters <a href="#hooks-actions-and-filters" class="anchor"><span aria-hidden="true">#</span><span class="screen-reader-text">Hooks: Actions and Filters</span></a></h2>
 
+## フック: アクションフックとフィルターフック
+
 <p>WordPress hooks allow you&nbsp;to tap into WordPress at specific points to change how WordPress behaves without editing any core files.</p>
+
+WordPressのフックを利用すると、コアファイルを編集することなく、WordPressの特定の動作を変更できます。
 
 <p>There are two types of hooks within WordPress: <em>actions</em> and <em>filters</em>. Actions allow you to add or change WordPress functionality, while filters allow you to alter&nbsp;content as it is loaded and displayed to the website user.</p>
 
-<p>Hooks are not just for plugin developers; hooks are used extensively to provide default functionality by WordPress core itself. Other&nbsp;hooks are unused place holders that are simply available for you to tap into when you need to alter how WordPress works. This is what makes WordPress so flexible.</p>
+WordPressには、2つのタイプのフックがあります。**アクション**と**フィルター**です。
+
+<p>Hooks are not just for plugin developers; hooks are used extensively to provide default functionality by WordPress core itself.
+Other&nbsp;hooks are unused place holders that are simply available for you to tap into when you need to alter how WordPress works. This is what makes WordPress so flexible.</p>
+
+フックはプラグイン開発者だけのためのものではありません。WordPressのコア自体の基本的な機能を提供するために広く使われています。
+それ以外のフックは、WordPressの動作を置き換える必要があるときに簡単に利用できる、未使用のプレースホルダーです。
 
 <h3 class="toc-heading" id="basic-hooks" tabindex="-1">Basic Hooks <a href="#basic-hooks" class="anchor"><span aria-hidden="true">#</span><span class="screen-reader-text">Basic Hooks</span></a></h3>
 
