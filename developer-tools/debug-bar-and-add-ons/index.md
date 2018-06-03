@@ -62,47 +62,43 @@ Debug Bar Cron はWPスケジュールイベントに関する情報をDebug Bar
 
 ## Debug Bar Actions and Filters Addon
 
-This plugin adds two more tabs in the Debug Bar to display hooks(Actions and Filters) attached to the current request. Actions tab displays the actions hooked to current request. Filters tab displays the filter tags along with the functions attached to it with respective priority.
+このプラグインは、デバッグバーに2つのタブを追加して、現在のリクエストに関連付けられたフック（アクションとフィルタ）を表示します。 アクションタブには、現在の要求にフックされたアクションが表示され、フィルタタブには、それぞれの優先度でフィルタタグが関連付けられた機能と一緒に表示されます。
 
-[Visit Debug Bar Actions and Filters Addon](https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/)
+[Debug Bar Actions and Filters Addon を見る](https://wordpress.org/plugins/debug-bar-actions-and-filters-addon/)
 
 ## Debug Bar Transients
 
-Debug Bar Transients adds information about WordPress Transients to a new panel in the Debug Bar. This plugin is an extension for Debug Bar and thus is dependent upon Debug Bar being installed for it to work properly.
+Debug Bar Transients はWordPress の一時的な情報をデバッグバーの新しいパネルに追加します。このプラグインはDebug Bar の拡張機能で、Debug Bar が正しく動作するようにインストールされているかどうかに依存します。
 
-Once installed, you will have access to the following information:
+インストールすると、次の情報にアクセスできるようになります：
 
-* Number of existing transients
-* List of custom transients
-* List of core transients
-* List of custom site transients
-* List of core site transients
-* An option to delete a transient
+* 既存のトランジェントの数
+* カスタムされたトランジェントのリスト
+* コアのトランジェントのリスト
+* カスタムサイトの遷移のリスト
+* コアサイトの遷移のリスト
+* 一時的なものを削除するオプション
 
-[Visit Debug Bar Transients](https://wordpress.org/plugins/debug-bar-transients/)
+[Debug Bar Transients を見る](https://wordpress.org/plugins/debug-bar-transients/)
 
 ## Debug Bar List Script & Style Dependencies
 
-Lists scripts and styles that are loaded, in which order they’re loaded, and what dependencies exist.
+ロードされるスクリプトとスタイル、ロードされた順序、依存関係のリストを表示します。
 
-[Visit Debug Bar List Script & Style Dependencies](https://wordpress.org/plugins/debug-bar-list-dependencies/)
+[Debug Bar List Script & Style Dependencies を見る](https://wordpress.org/plugins/debug-bar-list-dependencies/)
 
 ## Debug Bar Remote Requests
 
-This will log and profile remote requests made through the HTTP API.
+HTTP APIを介して行われたリモート要求のログとプロファイルが行われます。
 
-This plugin will add a “Remote Requests” panel to Debug Bar that will display the:
+このプラグインは、デバッグバーに「Remote Requests」パネルを追加し、次の情報を表示します：
 
-* Request method (GET, POST, etc)
+* リクエストメソッド (GET、POSTなど)
 * URL
-* Time per request
-* Total time for all requests
-* Total number of requests
+* リクエストの時間
+* すべてのリクエストの合計時間
+* リクエストの合計数
 
-Optionally, you can add ?dbrr_full=1 to your URL to get additional information, including all request parameters and a full dump of the response with headers.
+必要に応じてURLに `?dbrr_full=1` というパラメーターを追加すれば、すべてのリクエストパラメータとヘッダー付きの完全な応答を含む追加情報を取得できます。
 
-[Visit Debug Bar Remote Requests](https://wordpress.org/plugins/debug-bar-remote-requests/)
-
-## Handbook navigation
-[← Developer Tools](../developer-tools/index.md)  
-[Helper Plugins →](../developer-tools/helper-plugins/index.md)
+[Debug Bar Remote Requests を見る](https://wordpress.org/plugins/debug-bar-remote-requests/)
