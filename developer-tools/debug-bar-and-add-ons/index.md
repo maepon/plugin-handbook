@@ -46,19 +46,19 @@ Debug Bar Post Types はサイトに登録されている投稿タイプの詳�
 
 ## Debug Bar Cron
 
-Debug Bar Cron adds information about WP scheduled events to a new panel in the Debug Bar. This plugin is an extension for Debug Bar and thus is dependent upon Debug Bar being installed for it to work properly.
+Debug Bar Cron はWPスケジュールイベントに関する情報をDebug Bar の新しいパネルに追加します。このプラグインはDebug Bar の拡張機能で、Debug Bar が正しく動作するようにインストールされているかどうかに依存します。
 
-Once installed, you will have access to the following information:
+インストールすると、次の情報にアクセスできるようになります：
 
-* Number of scheduled events
-* If cron is currently running
-* Time of next event
-* Current time
-* List of custom scheduled events
-* List of core scheduled events
-* List of schedules
+* スケジュールされたイベントの数
+* cronが現在実行中の場合
+* 次のイベントの時間
+* 今の時間
+* カスタムスケジュールイベントのリスト
+* コアのスケジュールイベントのリスト
+* スケジュールのリスト
 
-[Visit Debug Bar Cron](https://wordpress.org/plugins/debug-bar-cron/)
+[Debug Bar Cron を見る](https://wordpress.org/plugins/debug-bar-cron/)
 
 ## Debug Bar Actions and Filters Addon
 
