@@ -81,9 +81,15 @@ Other&nbsp;hooks are unused place holders that are simply available for you to t
 
 <h3 class="toc-heading" id="basic-hooks" tabindex="-1">Basic Hooks <a href="#basic-hooks" class="anchor"><span aria-hidden="true">#</span><span class="screen-reader-text">Basic Hooks</span></a></h3>
 
+### 基本的なフック
+
 <p>The 3 basic hooks you’ll need when creating a plugin are the <a href="https://developer.wordpress.org/reference/functions/register_activation_hook/">register_activation_hook()</a>, <a href="https://developer.wordpress.org/reference/functions/register_deactivation_hook/">register_deactivation_hook()</a>&nbsp;and the <a href="https://developer.wordpress.org/reference/functions/register_uninstall_hook/">register_uninstall_hook()</a>.</p>
 
+プラグインを作成する際に必要となる3つの基本的なフックは、[register_activation_hook()](https://developer.wordpress.org/reference/functions/register_activation_hook/)と[register_deactivation_hook()](https://developer.wordpress.org/reference/functions/register_activation_hook/)、[register_uninstall_hook()](https://developer.wordpress.org/reference/functions/register_deactivation_hook/)です。
+
 <p>The <a href="https://developer.wordpress.org/plugins/the-basics/activation-deactivation-hooks/">activation hook</a> is run when you <em>activate</em> your plugin. You would use this to provide a function to set up your plugin — for example, creating some default settings in the <code>options</code> table.</p>
+
+[activation hook](https://developer.wordpress.org/plugins/the-basics/activation-deactivation-hooks/)はプラグインを**有効化**する時に動作します。プラグインを設定する機能を提供する時に利用します。例えば、**オプション**テーブルに初期設定を作成するなどです。
 
 <p>The <a href="https://developer.wordpress.org/plugins/the-basics/activation-deactivation-hooks/">deactivation hook</a> is run when you <em>deactivate</em> your plugin. You would use this to provide a function that clears any temporary data stores by your plugin.</p>
 
