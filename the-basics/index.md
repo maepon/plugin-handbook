@@ -1,10 +1,20 @@
 <h1>Plugin Basics</h1>
 
+# プラグインの基本
+
 <h2 class="toc-heading" id="getting-started" tabindex="-1">Getting Started <a href="#getting-started" class="anchor"><span aria-hidden="true">#</span><span class="screen-reader-text">Getting Started</span></a></h2>
 
-<p>At its simplest, a WordPress plugin is a PHP file with a WordPress plugin header comment. It’s highly recommended that you create a directory to hold your plugin so that all of your plugin’s files are neatly organized in one place.</p>
+## Getting Started
 
-<p>To get started&nbsp;creating a new plugin, follow the steps below.</p>
+<p>At its simplest, a WordPress plugin is a PHP file with a WordPress plugin header comment.
+It’s highly recommended that you create a directory to hold your plugin so that all of your plugin’s files are neatly organized in one place.</p>
+
+もっとも単純なプラグインは、WordPressプラグインのヘッダーコメントのPHPファイルです。
+作成するプラグインのファイルが一箇所に整理されているような形で、保持するディレクトリを用意することを強く推奨します。
+
+<p>To get started creating a new plugin, follow the steps below.</p>
+
+あたらしいプラグインの作成をはじめるにあたって、下記の手順を踏んでください。
 
 <ol>
 <li>Navigate to your WordPress installation’s&nbsp;<strong>wp-content</strong> directory.</li>
@@ -14,7 +24,15 @@
 <li>Create a new PHP file (it’s also good to name this file after your plugin, e.g. <code>plugin-name.php</code>).</li>
 </ol>
 
+1. インストールしたWordPressの**wp-content**ディレクトリに移動します。
+2. **plugins**ディレクトリを開きます。
+3. 新しくディレクトリを作成し、プラグインの名前で命名します（例：**plugin-name**）。
+4. 新しいプラグインのディレクトリを開きます。
+5. PHPファイルを作成します（ファイル名は、プラグインの名前で命名すると良いでしょう。例：**plugin-name.php**）
+
 <p>Here’s what the process looks like on the Unix command line:</p>
+
+以下がUnixのコマンドラインでの手順です：
 
 ```PHP
 wordpress$ cd wp-content
@@ -26,7 +44,11 @@ plugin-name$ vi plugin-name.php
 
 <p>In the example above, “vi” is the name of the text editor. Use whichever editor that is comfortable for you.</p>
 
+上記の例の「vi」はテキストエディタの名前です。普段利用しているエディターの名前を入れてください。
+
 <p>Now that you’re editing your new plugin’s PHP file, you’ll need to add a <strong>plugin header comment</strong>. &nbsp;This is a specially formatted PHP block comment that contains metadata about your plugin, such as its name and author. &nbsp;At the very least, the plugin header comment must contain the <strong>name</strong> of your plugin. &nbsp;Only <strong>one file</strong> in your&nbsp;plugin’s folder should have the header comment—if your plugin has multiple PHP files, only one of those files should have the comment.</p>
+
+新しいプラグインのファイルを編集する時に、**plugin header comment**を記述する必要があります。これはプラグインの名前や作成者などのメタデータを含んだ、このためにフォーマットを定められたPHPのブロックコメントです。最低限、plugin header commentにはプラグインの**name**を含める必要があります。プラグインのフォルダー内のファイルの一つだけがplugin header commentを持つべきです。プラグインが、複数のPHPファイルで構成されている場合、その中の一つのファイルがplugin header commentを持つべきです。
 
 ```PHP
 <?php
@@ -36,6 +58,8 @@ Plugin Name: YOUR PLUGIN NAME
 ```
 
 <p>After you save the file, you should be able to see your plugin listed in your WordPress site. Log in to your WordPress site, and click <strong>Plugins</strong> on the left navigation pane of your WordPress Admin. This page displays a listing of all the plugins your&nbsp;WordPress site has. Your new plugin should now be in that list!</p>
+
+ファイルを保存すると、WordPressで作成したサイトにあなたのプラグインがリストに加えられたか確認できます。WordPressで作成したサイトにログインし、WordPressの管理画面の左ナビゲーションの**プラグイン**をクリックします。その画面ではWordPressで作成したサイトに登録されているすべてのプラグインの一覧が表示しています。あなたが作成した新しいプラグインも一覧の中に加えられているでしょう！
 
 <h2 class="toc-heading" id="hooks-actions-and-filters" tabindex="-1">Hooks: Actions and Filters <a href="#hooks-actions-and-filters" class="anchor"><span aria-hidden="true">#</span><span class="screen-reader-text">Hooks: Actions and Filters</span></a></h2>
 
