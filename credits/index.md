@@ -1,10 +1,6 @@
-# Credits
-
 # クレジット
 
-List of credits brought over manually.
-
-手動で追加したクレジットリスト
+手動で追加したクレジットリストです。
 
 * [@2Neil](https://profiles.wordpress.org/2Neil)
 * [@aternus](https://profiles.wordpress.org/aternus)
@@ -43,5 +39,3 @@ List of credits brought over manually.
 * [@tmoorewp](https://profiles.wordpress.org/tmoorewp)
 * [@topher1kenobe](https://profiles.wordpress.org/topher1kenobe)
  
-## Handbook navigation
-[← Helper Plugins](../developer-tools/helper-plugins/index.md)
