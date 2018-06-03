@@ -39,5 +39,3 @@
 * [@tmoorewp](https://profiles.wordpress.org/tmoorewp)
 * [@topher1kenobe](https://profiles.wordpress.org/topher1kenobe)
  
-## ハンドブックのナビゲーション
-[← ヘルパープラグイン](../developer-tools/helper-plugins/index.md)
