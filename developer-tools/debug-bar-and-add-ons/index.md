@@ -1,49 +1,48 @@
-# Debug Bar and Add-Ons
+# デバッグバーとアドオン
 
 ## Debug Bar
 
-The debug bar, when active, adds a debug menu to the admin bar that shows query, cache, and other helpful debugging information.
+Debug Bar は、有効化されているときにクエリ、キャッシュ、その他の有用なデバッグ情報を表示するデバッグメニューを管理バーに追加します。  
+WP_DEBUG が有効化されていると、PHPの警告と注意を追跡して見つけやすくなります。  
+SAVEQUERIES を有効化すると、mysql クエリが追跡されて表示されます。
 
-When WP_DEBUG is enabled it also tracks PHP Warnings and Notices to make them easier to find.
-
-When SAVEQUERIES is enabled the mysql queries are tracked and displayed.
-
-[Visit Debug Bar](https://wordpress.org/plugins/debug-bar/)
+[Debug Bar を見る](https://wordpress.org/plugins/debug-bar/)
 
 ## Debug Bar Console
 
-This plugin provides a large textarea in which you can run arbitrary PHP.  This is excellent for testing the contents of variables etc.
+このプラグインは、任意のPHPを実行できる大きなテキストエリアを提供します。  
+変数などの内容をテストするのに優れています。
 
-[Visit Debug Bar Console](https://wordpress.org/plugins/debug-bar-console/)
+[Debug Bar Console を見る](https://wordpress.org/plugins/debug-bar-console/)
 
 ## Debug Bar Shortcodes
 
-Debug Bar Shortcodes adds a new panel to the Debug Bar that displays the registered shortcodes for the current request.
+Debug Bar Shortcodes は、現在のリクエストに登録されたショートコードを表示する新しいパネルをデバッグバーに追加します。
 
-Additionally it will show you:
+さらに、これらが表示されます：
 
-* Which function/method is called by the shortcode.
-* Whether the shortcode is used on the current post/page/post type and how (only when on singular).
-* Any additional information available about the shortcode, such as a description, which parameters it takes, whether or not it is self-closing.
-* Find out all pages/posts/etc on which a shortcode is used.
+* ショートコードによって呼ばれた関数やメソッド
+* ショートコードが現在の投稿/ページ/投稿タイプに使われているかどうか（シングルページのみ）
+* ショートコードに関する概要、パラメータ、自己完結型かどうかの追加情報
+* ショートコードが使われているすべてのページ/投稿などを探す
 
-[Visit Debug Bar Shortcodes](https://wordpress.org/plugins/debug-bar-shortcodes/)
+[Debug Bar Shortcodes を見る](https://wordpress.org/plugins/debug-bar-shortcodes/)
 
 ## Debug Bar Constants
 
-Debug Bar Constants adds three new panels to the Debug Bar that display the defined constants available to you as a developer for the current request:
+リクエストの管理者として利用可能な定義済みの定数を表示する新しい3つのパネルを追加します：
 
-* WP Constants
-* WP Class Constants
-* PHP Constants
+* WP 定数
+* WP クラス定数
+* PHP 定数
 
-[Visit Debug Bar Constants](https://wordpress.org/plugins/debug-bar-constants/)
+[Debug Bar Constants を見る](https://wordpress.org/plugins/debug-bar-constants/)
 
 ## Debug Bar Post Types
 
-Debug Bar Post Types adds a new panel to the Debug Bar that displays detailed information about the registered post types for your site.
+Debug Bar Post Types はサイトに登録されている投稿タイプの詳細情報を表示する新しいパネルをデバッグバーに追加します。
 
-[Visit Debug Bar Post Types](https://wordpress.org/plugins/debug-bar-post-types/)
+[Debug Bar Post Types を見る](https://wordpress.org/plugins/debug-bar-post-types/)
 
 ## Debug Bar Cron
 
